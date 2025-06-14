@@ -36,18 +36,16 @@
         
         .app-store-btn {
             display: inline-block;
-            background: #000;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 1.1em;
-            font-weight: 600;
-            transition: background-color 0.2s ease;
+            transition: transform 0.2s ease;
         }
         
         .app-store-btn:hover {
-            background: #333;
+            transform: scale(1.05);
+        }
+        
+        .app-store-btn img {
+            height: 60px;
+            width: auto;
         }
         
         .nav-links {
@@ -82,7 +80,9 @@
         
         <section style="margin-bottom: 35px; text-align: center;">
             <p style="font-size: 1.2em; margin-bottom: 20px; color: #4a5568;">Create lists, add items, check off – done.</p>
-            <a href="https://apps.apple.com/app/id6747260188" class="app-store-btn" style="display: inline-block; background: #000; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-size: 1.1em; font-weight: 600;">Download on the App Store</a>
+            <a href="https://apps.apple.com/app/id6747260188" class="app-store-btn">
+                <img src="Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Download on the App Store" style="border-radius: 8px;">
+            </a>
         </section>
 
         <section style="margin-bottom: 35px;">

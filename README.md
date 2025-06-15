@@ -18,3 +18,7 @@ Checkomat makes staying organized effortless with beautifully simple checklists 
 Perfect for shopping, to-dos, travel prep, and organizing routine tasks, Checkomat strips away the clutter that makes other apps frustrating to use. Every detail is designed for speed and simplicity.
 
 Simple productivity tools work best when they get out of your way. That's exactly what Checkomat does.
+
+## Download
+
+Available on the Apple App Store

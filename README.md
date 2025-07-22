@@ -11,6 +11,8 @@ Checkomat makes staying organized effortless with beautifully simple checklists 
 - Check off completed items, uncheck items that need to be reviewed again
 - Check or uncheck multiple items at once
 - Easily sort and organize checklists and items
+- Copy or move items between checklists with ease
+- Share checklists via Mail, Messages, AirDrop, and other apps
 - Clean, distraction-free interface
 - Complete privacy – no data collection
 - Full VoiceOver accessibility support

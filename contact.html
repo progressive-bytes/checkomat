@@ -4,136 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Checkomat</title>
-    <style>
-        /* Mobile-specific styles for better title handling */
-        @media (max-width: 480px) {
-            .main-title {
-                font-size: 1.8em !important;
-                letter-spacing: -0.5px !important;
-                line-height: 1.1 !important;
-                word-break: break-word;
-                hyphens: auto;
-            }
-            
-            .subtitle {
-                font-size: 1.4em !important;
-            }
-            
-            .header-container {
-                padding: 20px !important;
-            }
-        }
-        
-        @media (max-width: 360px) {
-            .main-title {
-                font-size: 1.6em !important;
-            }
-            
-            .subtitle {
-                font-size: 1.2em !important;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
-    
-    <header class="header-container" style="text-align: center; margin-bottom: 40px; padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <h1 class="main-title" style="margin: 0; font-size: 2.5em; font-weight: 300; letter-spacing: -1px;">CONTACT US</h1>
-        <h2 class="subtitle" style="margin: 10px 0 0 0; font-size: 1.8em; font-weight: 400; opacity: 0.9;">CHECKOMAT</h2>
-        <div style="margin-top: 20px; font-size: 1.1em; opacity: 0.9;">
-            We'd love to hear from you!
-        </div>
+<body>
+    <header class="header-container">
+        <h1 class="main-title">CONTACT US</h1>
+        <h2 class="subtitle">CHECKOMAT</h2>
+        <div class="header-tagline">We'd love to hear from you!</div>
     </header>
 
-    <main style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08);">
-        
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">GET IN TOUCH</h2>
-            <p style="margin-bottom: 15px; font-size: 1.05em;">Have questions, feedback, or feature requests? We're here to help!</p>
-            <p style="margin-bottom: 0; font-size: 1.05em;">Choose the best way to reach us below, and we'll get back to you as soon as possible.</p>
+    <main>
+        <section>
+            <h2>GET IN TOUCH</h2>
+            <p>Have questions, feedback, or feature requests? We're here to help!</p>
+            <p>Choose the best way to reach us below, and we'll get back to you as soon as possible.</p>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">CONTACT INFORMATION</h2>
-            
-            <div style="background: #fef5e7; padding: 25px; border-radius: 8px; border-left: 4px solid #ed8936; margin-bottom: 0;">
-                <p style="margin: 0; font-size: 1.05em; line-height: 1.8;">
+        <section>
+            <h2>CONTACT INFORMATION</h2>
+            <div class="info-box-orange">
+                <p>
                     <strong>Progressive Bytes</strong><br><br>
                     Nils Anspach<br>
                     c/o Postflex #3191<br>
                     Emsdettener Str. 10<br>
                     48268 Greven<br>
                     Germany<br><br>
-                    <strong>Phone:</strong> <a href="tel:+49 2571 5403212" style="color: #ed8936; text-decoration: none;">+49 2571 5403212</a><br>
-                    <strong>E-mail:</strong> <a href="mailto:contact@progressive-bytes.com" style="color: #ed8936; text-decoration: none;">contact@progressive-bytes.com</a>
+                    <strong>Phone:</strong> <a href="tel:+49 2571 5403212">+49 2571 5403212</a><br>
+                    <strong>E-mail:</strong> <a href="mailto:contact@progressive-bytes.com">contact@progressive-bytes.com</a>
                 </p>
             </div>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">WHAT TO INCLUDE</h2>
+        <section>
+            <h2>WHAT TO INCLUDE</h2>
             
-            <h3 style="color: #4a5568; margin: 25px 0 15px 0; font-size: 1.2em;">🐛 Bug Reports</h3>
-            <ul style="padding-left: 20px; margin-bottom: 20px;">
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Device model and iOS version</li>
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Checkomat version</li>
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Steps to reproduce the issue</li>
-                <li style="margin-bottom: 0; font-size: 1.05em;">Screenshots or screen recordings (if applicable)</li>
+            <h3>🐛 Bug Reports</h3>
+            <ul>
+                <li>Device model and iOS version</li>
+                <li>Checkomat version</li>
+                <li>Steps to reproduce the issue</li>
+                <li>Screenshots or screen recordings (if applicable)</li>
             </ul>
 
-            <h3 style="color: #4a5568; margin: 25px 0 15px 0; font-size: 1.2em;">💡 Feature Requests</h3>
-            <ul style="padding-left: 20px; margin-bottom: 20px;">
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Detailed description of the desired feature</li>
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Use case examples</li>
-                <li style="margin-bottom: 0; font-size: 1.05em;">Any mockups or visual ideas (optional)</li>
+            <h3>💡 Feature Requests</h3>
+            <ul>
+                <li>Detailed description of the desired feature</li>
+                <li>Use case examples</li>
+                <li>Any mockups or visual ideas (optional)</li>
             </ul>
 
-            <h3 style="color: #4a5568; margin: 25px 0 15px 0; font-size: 1.2em;">💬 General Feedback</h3>
-            <ul style="padding-left: 20px; margin-bottom: 0;">
-                <li style="margin-bottom: 8px; font-size: 1.05em;">What you love about the app</li>
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Areas for improvement</li>
-                <li style="margin-bottom: 8px; font-size: 1.05em;">Suggestions for new features</li>
-                <li style="margin-bottom: 0; font-size: 1.05em;">Overall user experience feedback</li>
-            </ul>
-        </section>
-
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">ALTERNATIVE CONTACT METHODS</h2>
-            <ul style="padding-left: 20px; margin-bottom: 0;">
-                <li style="margin-bottom: 8px; font-size: 1.05em;"><strong>App Store Reviews:</strong> Leave feedback on the Checkomat app page</li>
-                <li style="margin-bottom: 0; font-size: 1.05em;"><strong>In-App Feedback:</strong> Use the feedback feature within Checkomat</li>
+            <h3>💬 General Feedback</h3>
+            <ul>
+                <li>What you love about the app</li>
+                <li>Areas for improvement</li>
+                <li>Suggestions for new features</li>
+                <li>Overall user experience feedback</li>
             </ul>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">DISPUTE RESOLUTION</h2>
-            <div style="background: #f7fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin-bottom: 0;">
-                <p style="margin-bottom: 15px; font-size: 1.05em; line-height: 1.7;">
-                    The European Commission provides an official platform for online dispute resolution (ODR): <a href="https://ec.europa.eu/consumers/odr" style="color: #667eea; text-decoration: none;">https://ec.europa.eu/consumers/odr</a>. Our e-mail address is <a href="mailto:contact@progressive-bytes.com" style="color: #667eea; text-decoration: none;">contact@progressive-bytes.com</a>.
+        <section>
+            <h2>ALTERNATIVE CONTACT METHODS</h2>
+            <ul>
+                <li><strong>App Store Reviews:</strong> Leave feedback on the Checkomat app page</li>
+                <li><strong>In-App Feedback:</strong> Use the feedback feature within Checkomat</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>DISPUTE RESOLUTION</h2>
+            <div class="info-box">
+                <p>
+                    The European Commission provides an official platform for online dispute resolution (ODR): <a href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a>. Our e-mail address is <a href="mailto:contact@progressive-bytes.com">contact@progressive-bytes.com</a>.
                 </p>
-                <p style="margin-bottom: 0; font-size: 1.05em; line-height: 1.7;">
+                <p>
                     We are neither willing nor obliged to take part in dispute resolution procedures before a consumer conciliation body according to the Act on Alternative Dispute Resolution in Consumer Matters (Verbraucherstreitbeilegungsgesetz – VSBG).
                 </p>
             </div>
         </section>
 
-        <section style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 12px; color: white; text-align: center;">
-            <h2 style="color: white; margin-top: 0; margin-bottom: 15px; font-size: 1.4em;">WE VALUE YOUR INPUT</h2>
-            <p style="margin-bottom: 15px; font-size: 1.1em; opacity: 0.95;">Your feedback helps us make Checkomat better for everyone.</p>
-            <p style="margin-bottom: 15px; font-size: 1.1em; opacity: 0.95;">Whether it's a bug report, feature request, or just a friendly hello, we're excited to hear from you!</p>
-            <p style="margin-bottom: 0; font-size: 1.1em; font-weight: 600;">Thank you for being part of the Checkomat community.</p>
+        <section class="highlight-section">
+            <h2>WE VALUE YOUR INPUT</h2>
+            <p>Your feedback helps us make Checkomat better for everyone.</p>
+            <p>Whether it's a bug report, feature request, or just a friendly hello, we're excited to hear from you!</p>
+            <p>Thank you for being part of the Checkomat community.</p>
         </section>
-                                
-        <div class="nav-links" style="text-align: center; margin-top: 30px;">
-            <a href="index.html" style="color: #667eea; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: 500;">Home</a>
-            <a href="privacy.html" style="color: #667eea; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: 500;">Privacy Policy</a>
-        </div>
 
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
     </main>
 
-    <footer style="text-align: center; margin-top: 40px; padding: 20px; color: #666; font-size: 0.9em;">
-        <p style="margin: 0;">© 2025 Progressive Bytes. All rights reserved.</p>
+    <footer>
+        <p>© 2026 Progressive Bytes. All rights reserved.</p>
     </footer>
-
 </body>
 </html>

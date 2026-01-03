@@ -4,132 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkomat - Einfache Checklisten für iOS und iPadOS</title>
-    <style>
-        /* Mobile-specific styles for better title handling */
-        @media (max-width: 480px) {
-            .main-title {
-                font-size: 1.8em !important;
-                letter-spacing: -0.5px !important;
-                line-height: 1.1 !important;
-                word-break: break-word;
-                hyphens: auto;
-            }
-            
-            .subtitle {
-                font-size: 1.4em !important;
-            }
-            
-            .header-container {
-                padding: 20px !important;
-            }
-        }
-        
-        @media (max-width: 360px) {
-            .main-title {
-                font-size: 1.6em !important;
-            }
-            
-            .subtitle {
-                font-size: 1.2em !important;
-            }
-        }
-        
-        .app-store-btn {
-            display: inline-block;
-            transition: transform 0.2s ease;
-        }
-        
-        .app-store-btn:hover {
-            transform: scale(1.05);
-        }
-        
-        .app-store-btn img {
-            height: 60px;
-            width: auto;
-        }
-        
-        .nav-links {
-            text-align: center;
-            margin-top: 30px;
-        }
-        
-        .nav-links a {
-            color: #667eea;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1.1em;
-            font-weight: 500;
-        }
-        
-        .nav-links a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
-    
-    <header class="header-container" style="text-align: center; margin-bottom: 40px; padding: 30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-        <h1 class="main-title" style="margin: 0; font-size: 2.5em; font-weight: 300; letter-spacing: -1px;">CHECKOMAT</h1>
-        <h2 class="subtitle" style="margin: 10px 0 0 0; font-size: 1.8em; font-weight: 400; opacity: 0.9;">Einfache Checklisten für iOS und iPadOS</h2>
-        <div style="margin-top: 20px; font-size: 1.1em; opacity: 0.9;">
-            Ohne Schnickschnack
-        </div>
+<body>
+    <header class="header-container">
+        <h1 class="main-title">CHECKOMAT</h1>
+        <h2 class="subtitle">Einfache Checklisten für iOS und iPadOS</h2>
+        <div class="header-tagline">Ohne Schnickschnack</div>
     </header>
 
-    <main style="background: white; padding: 40px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.08);">
-        
-        <section style="margin-bottom: 35px; text-align: center;">
-            <p style="font-size: 1.2em; margin-bottom: 20px; color: #4a5568;">Listen erstellen, Einträge hinzufügen, abhaken – fertig.</p>
+    <main>
+        <section class="cta-section">
+            <p>Listen erstellen, Einträge hinzufügen, abhaken – fertig.</p>
             <a href="https://apps.apple.com/app/id6747260188" class="app-store-btn">
-                <img src="Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" alt="Laden im App Store" style="border-radius: 8px;">
+                <img src="Download_on_the_App_Store_Badge_DE_RGB_blk_092917.svg" alt="Laden im App Store">
             </a>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">ÜBER CHECKOMAT</h2>
-            <p style="margin-bottom: 15px; font-size: 1.05em;">Checkomat macht das Organisieren mühelos mit wunderschön einfachen Checklisten, die sich auf das Wesentliche konzentrieren: Dinge erledigen. Keine komplizierten Funktionen oder überladene Benutzeroberflächen – nur saubere, intuitive Checklisten, die genau so funktionieren, wie man es erwartet.</p>
+        <section>
+            <h2>ÜBER CHECKOMAT</h2>
+            <p>Checkomat macht das Organisieren mühelos mit wunderschön einfachen Checklisten, die sich auf das Wesentliche konzentrieren: Dinge erledigen. Keine komplizierten Funktionen oder überladene Benutzeroberflächen – nur saubere, intuitive Checklisten, die genau so funktionieren, wie man es erwartet.</p>
+
+			<figure style="margin: 30px 0 0 0; text-align: center;">
+				<img src="Checkomat-iPadOS-de.png" alt="Checkomat in heller Anzeige auf dem iPad" style="max-width: 70%; height: auto; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+				<figcaption style="margin-top: 12px; font-size: 0.95em; color: #666; font-style: italic;">Checkomat in heller Anzeige auf dem iPad</figcaption>
+			</figure>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">HAUPTFUNKTIONEN</h2>
-            
-            <div style="background: #f7fafc; padding: 25px; border-radius: 8px; border-left: 4px solid #667eea; margin-bottom: 0;">
-                <ul style="padding-left: 20px; margin: 0;">
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Unbegrenzt viele Checklisten für jeden Zweck erstellen</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Einträge mit optionalen Details in beliebiger Reihenfolge hinzufügen</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Erledigte Punkte abhaken, Einträge wieder zurücksetzen, die nochmals überprüft werden müssen</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Mehrere Einträge gleichzeitig abhaken oder zurücksetzen</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Checklisten und Einträge sortieren und organisieren</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Einträge zwischen Listen kopieren oder verschieben</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Checklisten per Mail, Nachrichten, AirDrop und anderen Apps teilen</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Saubere, einfache Benutzeroberfläche</li>
-                    <li style="margin-bottom: 12px; font-size: 1.05em;">Vollständige Privatsphäre – keine Datensammlung</li>
-                    <li style="margin-bottom: 0; font-size: 1.05em;">Vollständige VoiceOver-Barrierefreiheit</li>
+        <section>
+            <h2>HAUPTFUNKTIONEN</h2>
+            <div class="info-box">
+                <ul>
+                    <li>Unbegrenzt viele Checklisten für jeden Zweck erstellen</li>
+                    <li>Einträge mit optionalen Details in beliebiger Reihenfolge hinzufügen</li>
+                    <li>Erledigte Punkte abhaken, Einträge wieder zurücksetzen, die nochmals überprüft werden müssen</li>
+                    <li>Mehrere Einträge gleichzeitig abhaken oder zurücksetzen</li>
+                    <li>Checklisten und Einträge sortieren und organisieren</li>
+                    <li>Einträge zwischen Listen kopieren oder verschieben</li>
+                    <li>Checklisten per Mail, Nachrichten, AirDrop und anderen Apps teilen</li>
+                    <li>Saubere, einfache Benutzeroberfläche</li>
+                    <li>Vollständige Privatsphäre – keine Datensammlung</li>
+                    <li>Vollständige VoiceOver-Barrierefreiheit</li>
                 </ul>
             </div>
         </section>
 
-        <section style="margin-bottom: 35px;">
-            <h2 style="color: #667eea; border-bottom: 3px solid #667eea; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4em;">PERFEKT FÜR</h2>
-            <p style="margin-bottom: 15px; font-size: 1.05em;">Perfekt für Einkäufe, ToDos, Reisevorbereitung und die Organisation von Routineaufgaben. Checkomat entfernt den ganzen Ballast, der andere Apps frustrierend macht. Jedes Detail ist auf Geschwindigkeit und Einfachheit ausgelegt.</p>
+        <section>
+            <h2>PERFEKT FÜR</h2>
+            <p>Perfekt für Einkäufe, ToDos, Reisevorbereitung und die Organisation von Routineaufgaben. Checkomat entfernt den ganzen Ballast, der andere Apps frustrierend macht. Jedes Detail ist auf Geschwindigkeit und Einfachheit ausgelegt.</p>
         </section>
 
-        <section style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 12px; color: white; text-align: center;">
-            <h2 style="color: white; margin-top: 0; margin-bottom: 15px; font-size: 1.4em;">EFFEKTIV &amp; EFFIZIENT</h2>
-            <p style="margin-bottom: 15px; font-size: 1.1em; opacity: 0.95;">Einfache Produktivitäts-Tools funktionieren am besten, wenn sie einem nicht im Weg stehen.</p>
-            <p style="margin-bottom: 0; font-size: 1.1em; font-weight: 600;">Genau das macht Checkomat.</p>
+        <section class="highlight-section">
+            <h2>EFFEKTIV &amp; EFFIZIENT</h2>
+            <p>Einfache Produktivitäts-Tools funktionieren am besten, wenn sie einem nicht im Weg stehen.</p>
+            <p>Genau das macht Checkomat.</p>
         </section>
 
-        <div class="nav-links" style="text-align: center; margin-top: 30px;">
-            <a href="privacy.html" style="color: #667eea; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: 500;">Datenschutzerklärung</a>
-            <a href="contact.html" style="color: #667eea; text-decoration: none; margin: 0 15px; font-size: 1.1em; font-weight: 500;">Kontakt</a>
+        <div class="nav-links">
+            <a href="privacy.html">Datenschutzerklärung</a>
+            <a href="contact.html">Kontakt</a>
         </div>
-
     </main>
 
-    <footer style="text-align: center; margin-top: 40px; padding: 20px; color: #666; font-size: 0.9em;">
-        <p style="margin: 0;">© 2025 Progressive Bytes. Alle Rechte vorbehalten.</p>
+    <footer>
+        <p>© 2026 Progressive Bytes. Alle Rechte vorbehalten.</p>
     </footer>
-
 </body>
 </html>

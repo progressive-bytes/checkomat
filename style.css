@@ -239,7 +239,7 @@ li {
     transform: none !important;
 }
 
-/* --- 7. Privacy Statement --- */
+/* --- 7. Privacy & Trust Statements --- */
 .trust-statement {
     text-align: center;
     background: #e8f5ed; 
@@ -247,7 +247,7 @@ li {
     padding: 0;
     border-radius: 12px;
     position: relative;
-    border: 1px solid #c4e3d1;
+    border: 1px solid #c4e3d1 !important; /* Forces the box frame to show */
 }
 
 .trust-statement .container-small {
@@ -256,7 +256,9 @@ li {
     padding: 2rem 2rem; 
 }
 
-.trust-statement::after {
+/* Your essential divider line for privacy.html */
+/* We only draw it if it's NOT the .last-section */
+.trust-statement:not(.last-section)::after {
     content: "";
     position: absolute;
     bottom: -3rem;
@@ -265,7 +267,33 @@ li {
     border-bottom: 1px solid #e0f0e6;
 }
 
-/* --- 8. Download CTAs --- */
+/* --- 8. Contact Page Specifics --- */
+.contact-box {
+    background: #e8f5ed; 
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #c4e3d1;
+    margin-top: 2rem;
+}
+
+.contact-link {
+    color: #15803d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+.dispute-box {
+    background: #f7fdf9;
+    padding: 1.5rem;
+    border-left: 4px solid #86efac;
+    margin: 1rem 0;
+}
+
+/* --- 9. Download CTAs --- */
 section.download-cta {
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
@@ -305,7 +333,7 @@ section.download-cta {
     transform: scale(1.05);
 }
 
-/* --- 9. Footer --- */
+/* --- 10. Footer --- */
 footer {
     background: rgb(159, 226, 191);
     padding: 1rem 0;
@@ -360,7 +388,7 @@ footer {
     margin-bottom: 0;
 }
 
-/* --- 10. Responsive --- */
+/* --- 11. Responsive --- */
 @media (max-width: 768px) {
     h1 { font-size: 2.2rem; }
     .hero-visual-double { flex-direction: column; gap: 40px; }

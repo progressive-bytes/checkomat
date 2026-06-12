@@ -1,0 +1,10 @@
+/* 
+ * Theme Selector
+ * 
+ * To change the theme across all pages, simply change the @import below:
+ * - For light theme: @import url('shared/themes/meadow.css');
+ * - For dark theme:  @import url('shared/themes/forest.css');
+ */
+
+@import url('shared/themes/meadow.css');
+@import url('shared/themes/forest.css') screen and (prefers-color-scheme: dark);

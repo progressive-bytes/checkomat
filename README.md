@@ -2,7 +2,7 @@
 
 Simple checklists without the fluff. Create lists, add items, check off – done.
 
-Checkomat makes staying organized effortless with beautifully simple checklists that focus on what matters most: getting things done. No complicated features or overwhelming interfaces – just clean, intuitive checklists that work exactly how you'd expect.
+Checkomat makes staying organized effortless with beautifully simple checklists that focus on what matters most: getting things done. No unnecessary features or overwhelming interfaces – just clean, intuitive checklists that work exactly how you'd expect.
 
 ## Key Features
 
@@ -13,8 +13,8 @@ Checkomat makes staying organized effortless with beautifully simple checklists 
 - Easily sort and organize checklists and items
 - Copy or move items between checklists with ease
 - Share checklists via Mail, Messages, AirDrop, and other apps
+- 100% local by default – optional iCloud via opt-in
 - Clean, distraction-free interface
-- Complete privacy – no data collection
 - Full VoiceOver accessibility support
 
 Perfect for shopping, to-dos, travel prep, and organizing routine tasks, Checkomat strips away the clutter that makes other apps frustrating to use. Every detail is designed for speed and simplicity.
